@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: SF Pro Text, system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  background: #000000;
+  background: url("@/assets/wallpaper.png");
+  background-size: cover;
+  background-position: center center;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

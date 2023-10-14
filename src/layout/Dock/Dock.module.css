@@ -1,0 +1,31 @@
+.dock {
+  @apply flex items-center h-full space-x-[0.3125rem]; /* 5px */
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  border-radius: 1.25rem;
+
+  padding: 0.3125rem; /* 5px */
+}
+
+.dock__wrapper {
+  @apply flex justify-center;
+
+  height: 4.9375rem; /* 79px */
+  padding-bottom: 0.3125rem; /* 5px */
+}
+
+.divider {
+  height: 3.375rem;
+  width: 0.0625rem;
+
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}

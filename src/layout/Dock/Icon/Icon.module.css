@@ -1,0 +1,6 @@
+.icon__wrapper {
+  @apply h-full;
+
+  width: 3.6875rem; /* 59px */
+  padding-bottom: 0.125rem; /* 2px */
+}

@@ -1,0 +1,8 @@
+.item {
+  @apply flex items-center text-black select-none;
+
+  padding: 0 0.625rem;
+
+  font-size: 0.84375rem;
+  letter-spacing: -0.5px;
+}
