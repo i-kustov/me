@@ -1,5 +1,6 @@
 .menu-bar {
-  @apply flex pr-5 h-6 bg-white;
+  @apply flex pr-5 h-6 bg-white relative;
 
+  z-index: 10000;
   padding-left: 1.375rem;
 }

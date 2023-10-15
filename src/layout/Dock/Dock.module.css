@@ -1,5 +1,7 @@
 .dock {
-  @apply flex items-center h-full space-x-[0.3125rem]; /* 5px */
+  @apply flex items-center relative h-full space-x-[0.3125rem]; /* 5px */
+
+  z-index: 10000;
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: linear-gradient(
@@ -13,7 +15,7 @@
 }
 
 .dock__wrapper {
-  @apply flex justify-center;
+  @apply flex justify-center select-none;
 
   height: 4.9375rem; /* 79px */
   padding-bottom: 0.3125rem; /* 5px */

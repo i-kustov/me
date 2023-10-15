@@ -1,0 +1,35 @@
+.window {
+  @apply bg-brightGray absolute rounded-lg;
+
+  min-width: 15.625rem;
+  min-height: 9.375rem;
+
+  filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.3))
+    drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.15))
+    drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.6));
+}
+
+.toolbar {
+  @apply bg-lotion rounded-t-lg grid items-center;
+
+  grid-template-columns: 3.25rem 1fr 3.25rem;
+
+  height: 2.375rem;
+  padding: 0 0.8125rem;
+
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05),
+    0px 0.5px 0px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.591408729553223px);
+
+  &__title {
+    @apply flex-1 text-center select-none font-bold;
+
+    padding: 0 1.4375rem;
+    font-size: 0.8125rem;
+    color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.content {
+  @apply rounded-b-lg;
+}
