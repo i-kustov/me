@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Desktop, Dock, MenuBar, WindowManager } from '@/layout';
 
 const App: FC = () => {

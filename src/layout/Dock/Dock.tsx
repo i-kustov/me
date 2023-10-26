@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 
 import finderImg from '@/assets/icons/finder.png';
 import terminalImg from '@/assets/icons/terminal.png';
